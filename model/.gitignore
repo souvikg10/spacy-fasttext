@@ -1,0 +1,6 @@
+# ignore everything in this folder
+*
+*/
+
+# Exception made for .gitignore
+!.gitignore

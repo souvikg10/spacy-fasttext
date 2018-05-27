@@ -1,0 +1,20 @@
+{
+  "lang":"nl",
+  "pipeline":[
+    "tagger"
+  ],
+  "name":"model",
+  "license":"",
+  "author":"",
+  "url":"",
+  "vectors":{
+    "keys":871022,
+    "width":300,
+    "vectors":962148,
+    "name":"spacy_pretrained_vectors"
+  },
+  "version":"0.0.0",
+  "spacy_version":">=2.0.11",
+  "email":"",
+  "description":""
+}
