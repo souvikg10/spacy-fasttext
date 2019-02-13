@@ -21,7 +21,7 @@ Save the downloaded vector file in vector folder.
 Build the docker file as
 
 ```sh
-docker build -t spacy-fastText .
+docker build -t spacy-fasttext .
 ```
 
 ## Train your first model
@@ -31,7 +31,7 @@ Go to terminal and reach the present directory first.
 
 
 ```sh
-docker run -v $PWD:/app spacy-fastText python load_fastText.py 
+docker run -v $PWD:/app spacy-fasttext python load_fastText.py 
 ```
 
 This will build the model in the model folder
@@ -39,9 +39,9 @@ This will build the model in the model folder
 ## Package your model
 
 ```sh
-docker run -v $PWD:/app spacy-fastText python -m spacy package model model_package
+docker run -v $PWD:/app spacy-fasttext python -m spacy package model model_package
 
-docker run -it -v $PWWD::/app spacy-fastText bash
+docker run -it -v $PWWD::/app spacy-fasttext bash
 cd model_package/nl_model-0.0.0
 python setup.py sdist
 ```
