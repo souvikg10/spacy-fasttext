@@ -10,7 +10,7 @@ You should have docker
 
 In order to build with fastText, first download the FastText vector you need in the langauge from here
 
-[FastText Pre-trained vectors](https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md)
+[FastText Pre-trained vectors](https://github.com/facebookresearch/fastText/blob/master/docs/crawl-vectors.md)
 
 ## Load the vectors
 
