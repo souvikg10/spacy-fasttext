@@ -1,3 +1,13 @@
+# DEPRECATION WARNING
+
+IF YOU ARE INTERESTED IN A MORE RECENT PROJECT ON USING FASTTEXT VECTORS IN RASA, TRY THE FOLLOWING CODE
+https://github.com/RasaHQ/rasa-custom-fasttext
+
+Credits to: https://github.com/koaning
+
+THIS CODE BASE IS NOT MAINTAINED FOR OVER 3 YEARS. Life goes on!!
+
+
 ## Loading FastText vectors on Spacy
 
 Tbe requirements are really simple. 
